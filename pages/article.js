@@ -14,8 +14,8 @@ const Article = () => {
             <div
               id="banner"
               className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
-              data-src={process.env.API_URL + article.image.url}
-              data-srcset={process.env.API_URL + article.image.url}
+              data-src={process.env.BACKEND_URL + article.image.url}
+              data-srcset={process.env.BACKEND_URL + article.image.url}
               data-uk-img
             >
               <h1>{article.title}</h1>

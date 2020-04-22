@@ -1,14 +1,34 @@
 # Next Strapi BLOG
 This is a Next.js blog frontend using Apollo to integrate with Strapi headless CMS using GraphQL.
 
-# Strapi
+
+## Installation and usage
+1. Setup backend Strapi CMS by following https://strapi.io/documentation/
+
+2. Clone this front end repository
+
+3. In next.config.js change the urls
+```nextjs
+BACKEND_URL: prod
+  ? 'https://production.url'
+  : 'https://dev.url',
+GRAPHQL_API_URL: prod
+  ? 'https://production.url/graphql'
+  : 'https://dev.url/graphql'
+```
+
+You should be good to go!
+
+## More about the components
+
+### Strapi
 https://strapi.io
 
-# Next.js
+### Next.js
 https://nextjs.org
 
-# Apollo
+### Apollo
 https://www.apollographql.com/client/
 
-# GraphQL
+### GraphQL
 https://graphql.org

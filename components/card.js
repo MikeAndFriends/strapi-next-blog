@@ -9,7 +9,7 @@ const Card = ({ article }) => {
             <a className="uk-link-reset">
               <div className="uk-card-media-top">
                 <img
-                  src={process.env.API_URL + article.image.url}
+                  src={process.env.BACKEND_URL + article.image.url}
                   alt={article.image.url}
                   height="100"
                 />
