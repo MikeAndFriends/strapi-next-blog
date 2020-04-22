@@ -16,8 +16,13 @@ GRAPHQL_API_URL: prod
   ? 'https://production.url/graphql'
   : 'https://dev.url/graphql'
 ```
+4. run
+```nextjs
+npm run build
+npm start
+```
 
-You should be good to go!
+You should be good to go and view your site at http://localhost:3000/
 
 ## More about the components
 
